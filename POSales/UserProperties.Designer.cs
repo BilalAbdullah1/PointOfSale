@@ -44,7 +44,7 @@ namespace POSales
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(22, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 20);
+            this.label1.Size = new System.Drawing.Size(77, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Full name:";
             // 
@@ -53,7 +53,7 @@ namespace POSales
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(22, 70);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 20);
+            this.label2.Size = new System.Drawing.Size(42, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Role:";
             // 
@@ -62,7 +62,7 @@ namespace POSales
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(22, 116);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 20);
+            this.label3.Size = new System.Drawing.Size(73, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Activate:";
             // 
@@ -70,7 +70,7 @@ namespace POSales
             // 
             this.txtName.Location = new System.Drawing.Point(130, 21);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(342, 26);
+            this.txtName.Size = new System.Drawing.Size(342, 28);
             this.txtName.TabIndex = 4;
             // 
             // cbActivate
@@ -137,7 +137,7 @@ namespace POSales
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

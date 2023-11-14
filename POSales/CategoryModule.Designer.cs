@@ -93,7 +93,7 @@ namespace POSales
             this.btnCancel.FlatAppearance.BorderSize = 0;
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.ForeColor = System.Drawing.Color.Black;
-            this.btnCancel.Location = new System.Drawing.Point(596, 151);
+            this.btnCancel.Location = new System.Drawing.Point(596, 140);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(94, 35);
             this.btnCancel.TabIndex = 12;
@@ -108,7 +108,7 @@ namespace POSales
             this.btnUpdate.FlatAppearance.BorderSize = 0;
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Location = new System.Drawing.Point(496, 151);
+            this.btnUpdate.Location = new System.Drawing.Point(496, 140);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(94, 35);
             this.btnUpdate.TabIndex = 11;
@@ -132,7 +132,7 @@ namespace POSales
             this.btnSave.FlatAppearance.BorderSize = 0;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(396, 151);
+            this.btnSave.Location = new System.Drawing.Point(396, 140);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(94, 35);
             this.btnSave.TabIndex = 9;

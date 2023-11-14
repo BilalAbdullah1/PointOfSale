@@ -30,11 +30,11 @@ namespace POSales
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DailySale));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.picClose = new System.Windows.Forms.PictureBox();
             this.lblTitle = new System.Windows.Forms.Label();
@@ -89,11 +89,11 @@ namespace POSales
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(3, 12);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(82, 18);
+            this.lblTitle.Size = new System.Drawing.Size(90, 21);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Sold Items";
             this.lblTitle.Visible = false;
@@ -104,7 +104,7 @@ namespace POSales
             this.dtFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtFrom.Location = new System.Drawing.Point(155, 15);
             this.dtFrom.Name = "dtFrom";
-            this.dtFrom.Size = new System.Drawing.Size(125, 26);
+            this.dtFrom.Size = new System.Drawing.Size(125, 28);
             this.dtFrom.TabIndex = 10;
             this.dtFrom.ValueChanged += new System.EventHandler(this.dtFrom_ValueChanged);
             // 
@@ -114,7 +114,7 @@ namespace POSales
             this.dtTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtTo.Location = new System.Drawing.Point(313, 15);
             this.dtTo.Name = "dtTo";
-            this.dtTo.Size = new System.Drawing.Size(125, 26);
+            this.dtTo.Size = new System.Drawing.Size(125, 28);
             this.dtTo.TabIndex = 10;
             this.dtTo.ValueChanged += new System.EventHandler(this.dtTo_ValueChanged);
             // 
@@ -124,7 +124,7 @@ namespace POSales
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(7, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 20);
+            this.label2.Size = new System.Drawing.Size(150, 20);
             this.label2.TabIndex = 11;
             this.label2.Text = "Filter By Date: From";
             // 
@@ -134,18 +134,18 @@ namespace POSales
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(285, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(24, 20);
+            this.label3.Size = new System.Drawing.Size(27, 20);
             this.label3.TabIndex = 11;
             this.label3.Text = "To";
             // 
             // lblTotal
             // 
             this.lblTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTotal.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.ForeColor = System.Drawing.Color.Navy;
-            this.lblTotal.Location = new System.Drawing.Point(864, 18);
+            this.lblTotal.Location = new System.Drawing.Point(899, 18);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(139, 20);
+            this.lblTotal.Size = new System.Drawing.Size(104, 20);
             this.lblTotal.TabIndex = 12;
             this.lblTotal.Text = "0.00";
             this.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -194,14 +194,14 @@ namespace POSales
             this.dgvSold.AllowUserToAddRows = false;
             this.dgvSold.BackgroundColor = System.Drawing.Color.White;
             this.dgvSold.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvSold.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvSold.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvSold.ColumnHeadersHeight = 30;
             this.dgvSold.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvSold.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -229,7 +229,7 @@ namespace POSales
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column1.HeaderText = "No";
             this.Column1.Name = "Column1";
-            this.Column1.Width = 53;
+            this.Column1.Width = 52;
             // 
             // Column9
             // 
@@ -244,13 +244,14 @@ namespace POSales
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column3.HeaderText = "Invoice#";
             this.Column3.Name = "Column3";
+            this.Column3.Width = 96;
             // 
             // Column2
             // 
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column2.HeaderText = "Pcode";
             this.Column2.Name = "Column2";
-            this.Column2.Width = 81;
+            this.Column2.Width = 73;
             // 
             // Column4
             // 
@@ -261,38 +262,38 @@ namespace POSales
             // Column7
             // 
             this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Column7.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Column7.DefaultCellStyle = dataGridViewCellStyle7;
             this.Column7.HeaderText = "Price";
             this.Column7.Name = "Column7";
-            this.Column7.Width = 69;
+            this.Column7.Width = 67;
             // 
             // Column5
             // 
             this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column5.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column5.DefaultCellStyle = dataGridViewCellStyle8;
             this.Column5.HeaderText = "Qty";
             this.Column5.Name = "Column5";
-            this.Column5.Width = 58;
+            this.Column5.Width = 60;
             // 
             // Column6
             // 
             this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Column6.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Column6.DefaultCellStyle = dataGridViewCellStyle9;
             this.Column6.HeaderText = "Discount";
             this.Column6.Name = "Column6";
-            this.Column6.Width = 95;
+            this.Column6.Width = 93;
             // 
             // Column8
             // 
             this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Column8.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Column8.DefaultCellStyle = dataGridViewCellStyle10;
             this.Column8.HeaderText = "Total";
             this.Column8.Name = "Column8";
-            this.Column8.Width = 65;
+            this.Column8.Width = 69;
             // 
             // Cancel
             // 
@@ -311,7 +312,7 @@ namespace POSales
             this.Controls.Add(this.dgvSold);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

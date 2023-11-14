@@ -34,13 +34,13 @@ namespace POSales
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.picClose = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txtName = new MetroFramework.Controls.MetroTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPass = new MetroFramework.Controls.MetroTextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picClose)).BeginInit();
@@ -49,7 +49,7 @@ namespace POSales
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(45)))), ((int)(((byte)(123)))));
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.picClose);
             this.panel1.Controls.Add(this.label1);
@@ -82,22 +82,13 @@ namespace POSales
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(67, 19);
+            this.label1.Location = new System.Drawing.Point(62, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(317, 36);
+            this.label1.Size = new System.Drawing.Size(176, 40);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mdemy Super Market";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(425, 151);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
+            this.label1.Text = "THE MART";
             // 
             // txtName
             // 
@@ -137,10 +128,10 @@ namespace POSales
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Schoolbook", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(369, 265);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(212, 25);
+            this.label2.Size = new System.Drawing.Size(194, 30);
             this.label2.TabIndex = 11;
             this.label2.Text = "Please Login First";
             // 
@@ -183,7 +174,7 @@ namespace POSales
             // btnLogin
             // 
             this.btnLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(45)))), ((int)(((byte)(123)))));
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.ForeColor = System.Drawing.Color.White;
@@ -216,9 +207,20 @@ namespace POSales
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(788, 630);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(162, 20);
+            this.label3.Size = new System.Drawing.Size(149, 20);
             this.label3.TabIndex = 13;
             this.label3.Text = "@Copy Right Mdemy";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(399, 165);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(133, 100);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // Login
             // 
@@ -234,7 +236,7 @@ namespace POSales
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Login";
@@ -256,12 +258,12 @@ namespace POSales
         private System.Windows.Forms.PictureBox picClose;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private MetroFramework.Controls.MetroTextBox txtName;
         private System.Windows.Forms.Label label2;
         private MetroFramework.Controls.MetroTextBox txtPass;
         public System.Windows.Forms.Button btnLogin;
         public System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

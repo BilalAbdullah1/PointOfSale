@@ -50,6 +50,8 @@ namespace POSales
 
         private void dgvBrand_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            try
+            {
             //For update and delete brand by cell click from tbBrand
             string colName = dgvBrand.Columns[e.ColumnIndex].Name;
             if (colName == "Delete")
@@ -74,6 +76,12 @@ namespace POSales
                 brandModule.ShowDialog();
             }
             LoadBrand();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                cn.Close();
+            }
         }
     }
 }

@@ -482,14 +482,14 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Textbox Name="pVatable">
+          <Textbox Name="TaxAmount">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
             <Paragraphs>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>=Parameters!pVatable.Value</Value>
+                    <Value>=Parameters!TaxAmount.Value</Value>
                     <Style />
                   </TextRun>
                 </TextRuns>
@@ -498,7 +498,7 @@
                 </Style>
               </Paragraph>
             </Paragraphs>
-            <rd:DefaultName>pVatable</rd:DefaultName>
+            <rd:DefaultName>TaxAmount</rd:DefaultName>
             <Top>1.23833in</Top>
             <Left>3.39458in</Left>
             <Height>0.25in</Height>
@@ -681,7 +681,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Vatable</Value>
+                    <Value>TaxAmount</Value>
                     <Style />
                   </TextRun>
                 </TextRuns>
@@ -1055,7 +1055,7 @@
     </ReportSection>
   </ReportSections>
   <ReportParameters>
-    <ReportParameter Name="pVatable">
+    <ReportParameter Name="TaxAmount">
       <DataType>String</DataType>
       <Prompt>ReportParameter1</Prompt>
     </ReportParameter>
@@ -1104,7 +1104,7 @@
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>pVatable</ParameterName>
+          <ParameterName>TaxAmount</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>1</ColumnIndex>

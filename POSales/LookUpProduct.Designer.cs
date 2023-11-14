@@ -29,9 +29,9 @@ namespace POSales
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LookUpProduct));
             this.dgvProduct = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -56,14 +56,14 @@ namespace POSales
             this.dgvProduct.AllowUserToAddRows = false;
             this.dgvProduct.BackgroundColor = System.Drawing.Color.White;
             this.dgvProduct.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvProduct.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvProduct.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvProduct.ColumnHeadersHeight = 30;
             this.dgvProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvProduct.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -90,21 +90,21 @@ namespace POSales
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column1.HeaderText = "No";
             this.Column1.Name = "Column1";
-            this.Column1.Width = 53;
+            this.Column1.Width = 52;
             // 
             // Column2
             // 
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column2.HeaderText = "Pcode";
             this.Column2.Name = "Column2";
-            this.Column2.Width = 81;
+            this.Column2.Width = 73;
             // 
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column3.HeaderText = "Barcode";
             this.Column3.Name = "Column3";
-            this.Column3.Width = 96;
+            this.Column3.Width = 89;
             // 
             // Column4
             // 
@@ -117,20 +117,20 @@ namespace POSales
             this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column5.HeaderText = "Brand";
             this.Column5.Name = "Column5";
-            this.Column5.Width = 75;
+            this.Column5.Width = 73;
             // 
             // Column6
             // 
             this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column6.HeaderText = "Category";
             this.Column6.Name = "Column6";
-            this.Column6.Width = 102;
+            this.Column6.Width = 95;
             // 
             // Column7
             // 
             this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Column7.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Column7.DefaultCellStyle = dataGridViewCellStyle5;
             this.Column7.HeaderText = "Price";
             this.Column7.Name = "Column7";
             this.Column7.Width = 69;
@@ -138,8 +138,8 @@ namespace POSales
             // Column8
             // 
             this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column8.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column8.DefaultCellStyle = dataGridViewCellStyle6;
             this.Column8.HeaderText = "Qty";
             this.Column8.Name = "Column8";
             this.Column8.Width = 58;
@@ -223,7 +223,7 @@ namespace POSales
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label1.Location = new System.Drawing.Point(7, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 43);
+            this.label1.Size = new System.Drawing.Size(170, 43);
             this.label1.TabIndex = 0;
             this.label1.Text = "Search Product";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

@@ -66,7 +66,7 @@ namespace POSales
                 da.Fill(ds.Tables["dtRecept"]);
                 cn.Close();
 
-                ReportParameter pVatable = new ReportParameter("pVatable", cashier.lblVatable.Text);
+                ReportParameter pVatable = new ReportParameter("pVatable", cashier.lblTaxableAmt.Text);
                 ReportParameter pVat = new ReportParameter("pVat", cashier.lblVat.Text);
                 ReportParameter pDiscount = new ReportParameter("pDiscount", cashier.lblDiscount.Text);
                 ReportParameter pTotal = new ReportParameter("pTotal", cashier.lblDisplayTotal.Text);

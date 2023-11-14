@@ -95,7 +95,7 @@ namespace POSales
             // 
             // lblStockOnHand
             // 
-            this.lblStockOnHand.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStockOnHand.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStockOnHand.ForeColor = System.Drawing.Color.White;
             this.lblStockOnHand.Location = new System.Drawing.Point(71, 9);
             this.lblStockOnHand.Name = "lblStockOnHand";
@@ -156,7 +156,7 @@ namespace POSales
             // 
             // lblCriticalItems
             // 
-            this.lblCriticalItems.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCriticalItems.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCriticalItems.ForeColor = System.Drawing.Color.White;
             this.lblCriticalItems.Location = new System.Drawing.Point(71, 9);
             this.lblCriticalItems.Name = "lblCriticalItems";
@@ -217,7 +217,7 @@ namespace POSales
             // 
             // lblTotalProduct
             // 
-            this.lblTotalProduct.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalProduct.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalProduct.ForeColor = System.Drawing.Color.White;
             this.lblTotalProduct.Location = new System.Drawing.Point(71, 9);
             this.lblTotalProduct.Name = "lblTotalProduct";
@@ -278,7 +278,7 @@ namespace POSales
             // 
             // lblDalySale
             // 
-            this.lblDalySale.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDalySale.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDalySale.ForeColor = System.Drawing.Color.White;
             this.lblDalySale.Location = new System.Drawing.Point(71, 9);
             this.lblDalySale.Name = "lblDalySale";

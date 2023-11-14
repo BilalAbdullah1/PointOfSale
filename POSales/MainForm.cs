@@ -196,5 +196,13 @@ namespace POSales
             dr.Close();
             cn.Close();
         }
+
+        private void picClose_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Exit Application?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

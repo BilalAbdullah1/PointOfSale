@@ -111,7 +111,6 @@ namespace POSales
                 cancelOrder.txtTotal.Text = dgvSold.Rows[e.RowIndex].Cells[8].Value.ToString();
                 cancelOrder.txtCancelBy.Text = solduser;
                 cancelOrder.ShowDialog();
-
             }
         }
 

@@ -48,6 +48,8 @@ namespace POSales
 
         private void dgvProduct_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            try
+            {
             string colName = dgvProduct.Columns[e.ColumnIndex].Name;
             if (colName == "Edit")
             {
@@ -77,6 +79,11 @@ namespace POSales
                 }
             }
             LoadProduct();
+        }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void txtSearch_TextChanged(object sender, EventArgs e)

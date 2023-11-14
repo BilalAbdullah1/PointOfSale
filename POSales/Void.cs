@@ -47,11 +47,11 @@ namespace POSales
                     dr.Close();
                     cn.Close();
                     SaveCancelOrder(user);
-                    if(cancelOrder.cboInventory.Text=="yes")
+                    if(cancelOrder.cboInventory.Text=="Yes")
                     {
                         dbcon.ExecuteQuery("UPDATE tbProduct SET qty = qty + " + cancelOrder.udCancelQty.Value + " where pcode= '" + cancelOrder.txtPcode.Text + "'");
                     }
-                    dbcon.ExecuteQuery("UPDATE tbCart SET qty = qty + " + cancelOrder.udCancelQty.Value + " where id LIKE '" + cancelOrder.txtId.Text + "'");
+                    dbcon.ExecuteQuery("UPDATE tbCart SET qty = qty - " + cancelOrder.udCancelQty.Value + " where id LIKE '" + cancelOrder.txtId.Text + "'");
                     MessageBox.Show("Order transaction successfully cancelled!", "Cancel Order", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Dispose();
                     cancelOrder.ReloadSoldList();

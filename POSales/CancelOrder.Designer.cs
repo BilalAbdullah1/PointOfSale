@@ -92,11 +92,11 @@ namespace POSales
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 18);
+            this.label1.Size = new System.Drawing.Size(154, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Cancel Order Detail";
             // 
@@ -342,7 +342,7 @@ namespace POSales
             this.btnCOrder.Name = "btnCOrder";
             this.btnCOrder.Size = new System.Drawing.Size(155, 35);
             this.btnCOrder.TabIndex = 23;
-            this.btnCOrder.Text = "Cance Order";
+            this.btnCOrder.Text = "Cancel Order";
             this.btnCOrder.UseVisualStyleBackColor = false;
             this.btnCOrder.Click += new System.EventHandler(this.btnCOrder_Click);
             // 

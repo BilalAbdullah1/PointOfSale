@@ -122,5 +122,10 @@ namespace POSales
                 btnLogin.PerformClick();
             }
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

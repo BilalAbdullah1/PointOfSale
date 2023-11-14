@@ -29,8 +29,7 @@ namespace POSales
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductStockIn));
             this.dgvProduct = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,14 +51,14 @@ namespace POSales
             this.dgvProduct.AllowUserToAddRows = false;
             this.dgvProduct.BackgroundColor = System.Drawing.Color.White;
             this.dgvProduct.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvProduct.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvProduct.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvProduct.ColumnHeadersHeight = 30;
             this.dgvProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvProduct.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -68,14 +67,6 @@ namespace POSales
             this.Column4,
             this.Column8,
             this.Select});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvProduct.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvProduct.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvProduct.EnableHeadersVisualStyles = false;
             this.dgvProduct.Location = new System.Drawing.Point(0, 0);
@@ -90,14 +81,14 @@ namespace POSales
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column1.HeaderText = "No";
             this.Column1.Name = "Column1";
-            this.Column1.Width = 53;
+            this.Column1.Width = 52;
             // 
             // Column2
             // 
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column2.HeaderText = "Pcode";
             this.Column2.Name = "Column2";
-            this.Column2.Width = 81;
+            this.Column2.Width = 73;
             // 
             // Column4
             // 
@@ -110,7 +101,7 @@ namespace POSales
             this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column8.HeaderText = "Qty";
             this.Column8.Name = "Column8";
-            this.Column8.Width = 58;
+            this.Column8.Width = 60;
             // 
             // Select
             // 
@@ -154,7 +145,7 @@ namespace POSales
             // 
             // 
             this.txtSearch.CustomButton.Image = null;
-            this.txtSearch.CustomButton.Location = new System.Drawing.Point(350, 1);
+            this.txtSearch.CustomButton.Location = new System.Drawing.Point(319, 1);
             this.txtSearch.CustomButton.Name = "";
             this.txtSearch.CustomButton.Size = new System.Drawing.Size(25, 25);
             this.txtSearch.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -165,7 +156,7 @@ namespace POSales
             this.txtSearch.DisplayIcon = true;
             this.txtSearch.Icon = ((System.Drawing.Image)(resources.GetObject("txtSearch.Icon")));
             this.txtSearch.Lines = new string[0];
-            this.txtSearch.Location = new System.Drawing.Point(190, 28);
+            this.txtSearch.Location = new System.Drawing.Point(208, 28);
             this.txtSearch.MaxLength = 32767;
             this.txtSearch.Multiline = true;
             this.txtSearch.Name = "txtSearch";
@@ -176,7 +167,7 @@ namespace POSales
             this.txtSearch.SelectionLength = 0;
             this.txtSearch.SelectionStart = 0;
             this.txtSearch.ShortcutsEnabled = true;
-            this.txtSearch.Size = new System.Drawing.Size(363, 27);
+            this.txtSearch.Size = new System.Drawing.Size(345, 27);
             this.txtSearch.TabIndex = 2;
             this.txtSearch.UseSelectable = true;
             this.txtSearch.WaterMark = "Search here";

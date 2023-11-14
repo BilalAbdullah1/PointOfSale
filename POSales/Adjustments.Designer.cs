@@ -81,17 +81,18 @@ namespace POSales
             // btnSave
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSave.BackColor = System.Drawing.Color.Crimson;
             this.btnSave.Enabled = false;
             this.btnSave.FlatAppearance.BorderSize = 0;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(954, 10);
+            this.btnSave.Location = new System.Drawing.Point(948, 10);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 32);
             this.btnSave.TabIndex = 4;
             this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // txtSearch
@@ -128,7 +129,7 @@ namespace POSales
             this.txtSearch.UseSelectable = true;
             this.txtSearch.WaterMark = "Search here";
             this.txtSearch.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtSearch.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtSearch.WaterMarkFont = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // label1

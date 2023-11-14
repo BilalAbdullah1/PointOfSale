@@ -56,7 +56,7 @@ namespace POSales
             this.panel5 = new System.Windows.Forms.Panel();
             this.txtQty = new System.Windows.Forms.TextBox();
             this.lblTimer = new System.Windows.Forms.Label();
-            this.lblVatable = new System.Windows.Forms.Label();
+            this.lblTaxableAmt = new System.Windows.Forms.Label();
             this.lblVat = new System.Windows.Forms.Label();
             this.lblDiscount = new System.Windows.Forms.Label();
             this.lblSaleTotal = new System.Windows.Forms.Label();
@@ -268,7 +268,7 @@ namespace POSales
             this.lblUsername.ForeColor = System.Drawing.Color.White;
             this.lblUsername.Location = new System.Drawing.Point(67, 142);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(83, 20);
+            this.lblUsername.Size = new System.Drawing.Size(77, 20);
             this.lblUsername.TabIndex = 4;
             this.lblUsername.Text = "Username";
             // 
@@ -330,7 +330,7 @@ namespace POSales
             this.lblname.ForeColor = System.Drawing.Color.White;
             this.lblname.Location = new System.Drawing.Point(56, 13);
             this.lblname.Name = "lblname";
-            this.lblname.Size = new System.Drawing.Size(122, 20);
+            this.lblname.Size = new System.Drawing.Size(110, 20);
             this.lblname.TabIndex = 0;
             this.lblname.Text = "Name and Role";
             // 
@@ -338,7 +338,7 @@ namespace POSales
             // 
             this.panel5.Controls.Add(this.txtQty);
             this.panel5.Controls.Add(this.lblTimer);
-            this.panel5.Controls.Add(this.lblVatable);
+            this.panel5.Controls.Add(this.lblTaxableAmt);
             this.panel5.Controls.Add(this.lblVat);
             this.panel5.Controls.Add(this.lblDiscount);
             this.panel5.Controls.Add(this.lblSaleTotal);
@@ -363,7 +363,7 @@ namespace POSales
             // 
             this.txtQty.Location = new System.Drawing.Point(167, 249);
             this.txtQty.Name = "txtQty";
-            this.txtQty.Size = new System.Drawing.Size(39, 26);
+            this.txtQty.Size = new System.Drawing.Size(39, 28);
             this.txtQty.TabIndex = 11;
             this.txtQty.Text = "1";
             this.txtQty.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -381,14 +381,14 @@ namespace POSales
             this.lblTimer.Text = "00:00:00";
             this.lblTimer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblVatable
+            // lblTaxableAmt
             // 
-            this.lblVatable.Location = new System.Drawing.Point(102, 444);
-            this.lblVatable.Name = "lblVatable";
-            this.lblVatable.Size = new System.Drawing.Size(115, 20);
-            this.lblVatable.TabIndex = 9;
-            this.lblVatable.Text = "0.00";
-            this.lblVatable.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTaxableAmt.Location = new System.Drawing.Point(102, 444);
+            this.lblTaxableAmt.Name = "lblTaxableAmt";
+            this.lblTaxableAmt.Size = new System.Drawing.Size(115, 20);
+            this.lblTaxableAmt.TabIndex = 9;
+            this.lblTaxableAmt.Text = "0.00";
+            this.lblTaxableAmt.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblVat
             // 
@@ -422,25 +422,25 @@ namespace POSales
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(6, 444);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(77, 20);
+            this.label10.Size = new System.Drawing.Size(98, 20);
             this.label10.TabIndex = 7;
-            this.label10.Text = "VATable :";
+            this.label10.Text = "Taxable Amt";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(6, 411);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 20);
+            this.label9.Size = new System.Drawing.Size(45, 20);
             this.label9.TabIndex = 7;
-            this.label9.Text = "VAT :";
+            this.label9.Text = "TAX:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(6, 378);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 20);
+            this.label8.Size = new System.Drawing.Size(78, 20);
             this.label8.TabIndex = 7;
             this.label8.Text = "Discount :";
             // 
@@ -449,7 +449,7 @@ namespace POSales
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(6, 345);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(90, 20);
+            this.label7.Size = new System.Drawing.Size(95, 20);
             this.label7.TabIndex = 7;
             this.label7.Text = "Sales Total :";
             // 
@@ -457,7 +457,7 @@ namespace POSales
             // 
             this.txtBarcode.Location = new System.Drawing.Point(13, 249);
             this.txtBarcode.Name = "txtBarcode";
-            this.txtBarcode.Size = new System.Drawing.Size(149, 26);
+            this.txtBarcode.Size = new System.Drawing.Size(149, 28);
             this.txtBarcode.TabIndex = 6;
             this.txtBarcode.TextChanged += new System.EventHandler(this.txtBarcode_TextChanged);
             // 
@@ -476,7 +476,7 @@ namespace POSales
             this.lblDate.AutoSize = true;
             this.lblDate.Location = new System.Drawing.Point(9, 184);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(89, 20);
+            this.lblDate.Size = new System.Drawing.Size(99, 20);
             this.lblDate.TabIndex = 4;
             this.lblDate.Text = "0000000000";
             // 
@@ -495,7 +495,7 @@ namespace POSales
             this.lblTranNo.AutoSize = true;
             this.lblTranNo.Location = new System.Drawing.Point(9, 120);
             this.lblTranNo.Name = "lblTranNo";
-            this.lblTranNo.Size = new System.Drawing.Size(105, 20);
+            this.lblTranNo.Size = new System.Drawing.Size(117, 20);
             this.lblTranNo.TabIndex = 2;
             this.lblTranNo.Text = "000000000000";
             // 
@@ -513,7 +513,7 @@ namespace POSales
             // 
             this.lblDisplayTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
             this.lblDisplayTotal.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblDisplayTotal.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDisplayTotal.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDisplayTotal.ForeColor = System.Drawing.Color.White;
             this.lblDisplayTotal.Location = new System.Drawing.Point(0, 0);
             this.lblDisplayTotal.Name = "lblDisplayTotal";
@@ -536,7 +536,7 @@ namespace POSales
             this.dgvCash.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -571,7 +571,7 @@ namespace POSales
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column1.HeaderText = "No";
             this.Column1.Name = "Column1";
-            this.Column1.Width = 53;
+            this.Column1.Width = 52;
             // 
             // Column9
             // 
@@ -579,14 +579,14 @@ namespace POSales
             this.Column9.HeaderText = "Id";
             this.Column9.Name = "Column9";
             this.Column9.Visible = false;
-            this.Column9.Width = 49;
+            this.Column9.Width = 51;
             // 
             // Column2
             // 
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column2.HeaderText = "Pcode";
             this.Column2.Name = "Column2";
-            this.Column2.Width = 81;
+            this.Column2.Width = 73;
             // 
             // Column4
             // 
@@ -601,7 +601,7 @@ namespace POSales
             this.Column7.DefaultCellStyle = dataGridViewCellStyle2;
             this.Column7.HeaderText = "Price";
             this.Column7.Name = "Column7";
-            this.Column7.Width = 69;
+            this.Column7.Width = 67;
             // 
             // Column5
             // 
@@ -610,7 +610,7 @@ namespace POSales
             this.Column5.DefaultCellStyle = dataGridViewCellStyle3;
             this.Column5.HeaderText = "Qty";
             this.Column5.Name = "Column5";
-            this.Column5.Width = 58;
+            this.Column5.Width = 60;
             // 
             // Column6
             // 
@@ -619,7 +619,7 @@ namespace POSales
             this.Column6.DefaultCellStyle = dataGridViewCellStyle4;
             this.Column6.HeaderText = "Discount";
             this.Column6.Name = "Column6";
-            this.Column6.Width = 95;
+            this.Column6.Width = 93;
             // 
             // Column8
             // 
@@ -628,7 +628,7 @@ namespace POSales
             this.Column8.DefaultCellStyle = dataGridViewCellStyle5;
             this.Column8.HeaderText = "Total";
             this.Column8.Name = "Column8";
-            this.Column8.Width = 65;
+            this.Column8.Width = 69;
             // 
             // colAdd
             // 
@@ -671,7 +671,7 @@ namespace POSales
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Cashier";
@@ -740,7 +740,7 @@ namespace POSales
         private System.Windows.Forms.DataGridViewImageColumn colAdd;
         private System.Windows.Forms.DataGridViewImageColumn colReduce;
         private System.Windows.Forms.DataGridViewImageColumn Delete;
-        public System.Windows.Forms.Label lblVatable;
+        public System.Windows.Forms.Label lblTaxableAmt;
         public System.Windows.Forms.Label lblVat;
         public System.Windows.Forms.Label lblDiscount;
         public System.Windows.Forms.Label lblSaleTotal;
